@@ -29,9 +29,20 @@
 ### Diagrama UML: Maquina de dulces
 ###### El siguiente diagrama UML representa a una maquina de dulces clasica como la que se muestra e la siguiente imagen.
 ![UML](../imagenes/maquina.png)
-###### A continuacion se expresa la explicacion del diagrama de clases.
 #### Elementos:
 ##### 1. **MaquinaDeDulces**:
-###### La clase maquina de dulces
+###### La clase MaquinaDeDulces guarda una relacion de composicion con las clases ContenedorDulces, Almacenamiento y Dispensador, ademas de una relacion de uno a uno con la clase pago, ya que una maquina (en este caso la unica) puede realizar solo un metodo de pago.
 ##### 2. **ContenedorDulces**:
-##### 3. **Contenido dulces**:
+###### La clase ContenedorDulces representa al contenedor de dulces de la maquina y guarda una relacion de 1 a 50 con la clase ContenidoDulce, ya que un contenedor puede almacenar un maximo de 50 dulces.
+##### 3. **Almacen**:
+###### La clase Almacen representa al almacen donde se guardan las monedas ingresadas cuando se compran dulces de la maquina, contiene el metodo Almacenamiento, el cual comprueba si hay espacio para mas monedas y si es asi, pasar las monedas al almacenamiento. Guarda una relacion de composicion con la clase Dispensador ya que estan conectados.
+##### 4. **Dispensador**:
+###### La clase Dispensador tiene relaciones de composicion con las clases Almacen, Receptor de pago y llave, ya que son parte del mismo. De agregacion con la clase DispensadorCambioDulces, ya que es parte de pero no lo compone, ademas de una relacion de uno a uno con la clase Pago, es decir, un dispensador puede realizar un pago a la vez. Ademas de esto, contiene un metodo efectuar pago, que tiene un tipo de dato booleano; tomara un valor de true cuando se ingresen las monedas suficientes y efectuara los metodos de la clase DispensadorCambioDulces.
+##### 5. **Pago**:
+###### La clase pago  tiene una relacion con la clase MaquinaDeDulces de uno a uno, ya que a traves de la maquina de dulces se puede efectuar un solo metodo de pago, ademas de tener la isma relacion con la clase dispensador y un metodo llamdo conteo, el cual ira llevado el conteo de la monedas ingresadas. 
+##### 6. **DispensadorCambioDulces**:
+###### La clase DispensadorCambioDulces es una agregacion a la clase Dispensador, y tiene los metodos SoltarCambio y SolarDulce, que se ejecuan una vez se confirma que el ago esta completo en la clase Dispensador.
+##### 7. **ReceptorCambio**:
+###### La clase ReceptorCambio es un composicion del dispensador y tiene los metodos RecibirMoneda y DepositoMoneda, ambos de tipo entero. El metodo RecibirMoneda representa la accion de meter la moneda y el DepositoMoneda se activa una vez la clase Llave activa su metodo, con la cual tambien guarda una relacion de composicion.
+##### 8. **Llave**:
+###### La clase Llave tiene una relacion de composicion con la clase Dispensador y la clase ReceptorPago, ademas de un metodo de tipo booleano llamado Girar. Este metodo al tener un valor de true representa el giro de la llave que permite depositar la moneda por medio del metodo DepositoMoneda de la clase ReceptorPago.
