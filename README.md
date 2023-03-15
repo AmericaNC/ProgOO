@@ -1,6 +1,6 @@
 
 # Tecnologico Nacional de Mexico - Instituto tecnologico de Tijuana (ITT) 
-![LOGO](img/images?q=tbn:ANd9GcST1FlQYMeHzJ48QMjEs4p4h6ZGinGEN2ihJA)
+![](./img/images?q=tbn:ANd9GcST1FlQYMeHzJ48QMjEs4p4h6ZGinGEN2ihJA)
 El presente repositorio es un portafolio de evidencias para materia de Programacion Orientada a Objetos, donde incluire mis diferentes praticas a lo largo del semestre.
 ##### Datos:
 ###### Nombre: Nevarez de la Cruz America Fernanda
