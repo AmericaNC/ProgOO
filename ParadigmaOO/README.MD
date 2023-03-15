@@ -26,5 +26,8 @@
 ###### La planificación y análisis que ofrece el desarrollo con UML es usado para sistemas con altos niveles de complejidad en la estructura y comportamiento. Es por esto mismo que las grandes empresas siguen utilizando el lenguaje unificado de modelado actualmente y sigue teniendo relevancia.
 ###### En 1997 UML 1.1 fue aprobada por la OMG convirtiéndose en la notación estándar de facto para el análisis y el diseño orientado a objetos.
 ###### UML se nutrio a partir de UML 1.1. Aunque UML 2.1 nunca fue lanzado como una especificación formal, las versiones 2.1.1 y 2.1.2, aparecieron en 2007, seguidas por UML 2.2 en febrero de 2009. UML 2.3 fue lanzado oficialmente en mayo de 2010. UML 2.4.1 fue lanzado oficialmente en agosto de 2011. UML 2, y por ultimo 5.1 fue lanzado en octubre de 2012 como una versión "En proceso" que fue formalmente liberada en junio de 2015.
-![Clasev](../imagenes/uml.png)
-
+##### Diagrama UML: Maquina de dulces
+###### El siguiente diagrama UML representa a una maquina de dulces clasica como la que se muestra e la siguiente imagen.
+![UML](../imagenes/maquina.png)
+###### La clase *Maquina de dulces* interactua con la clase *Contenedor de dulces* en una relacion de composicion; a su vez, tambien guarda una relacion de composicion con a clase *Dispensador*, la cual hace referencia a el espacio en el que se depositan las monedas y se ubica la llave. 
+###### Por su parte, la clase *Dispensador* se compone de las clases *DispensadorCambio*, *DispensadorDulce* y *Llave*. Estas ultimas dos tambien guardan una relacion de composicion, ya que como se ve en la imagen de referencia, actuan en coordinacion para realizar el pago.
