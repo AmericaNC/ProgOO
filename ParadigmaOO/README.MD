@@ -29,6 +29,7 @@
 ### Diagrama UML: Maquina de dulces
 ###### El siguiente diagrama UML representa a una maquina de dulces clasica como la que se muestra e la siguiente imagen.
 ![UML](../imagenes/maquina.png)
+![UMLDiagrama](../imagenes/UML-Maquina-dulces.jpg)
 #### Elementos:
 ##### 1. **MaquinaDeDulces**:
 ###### La clase MaquinaDeDulces guarda una relacion de composicion con las clases ContenedorDulces, Almacenamiento y Dispensador, ademas de una relacion de uno a uno con la clase pago, ya que una maquina (en este caso la unica) puede realizar solo un metodo de pago.
