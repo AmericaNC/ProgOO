@@ -26,4 +26,5 @@
 ###### La planificación y análisis que ofrece el desarrollo con UML es usado para sistemas con altos niveles de complejidad en la estructura y comportamiento. Es por esto mismo que las grandes empresas siguen utilizando el lenguaje unificado de modelado actualmente y sigue teniendo relevancia.
 ###### En 1997 UML 1.1 fue aprobada por la OMG convirtiéndose en la notación estándar de facto para el análisis y el diseño orientado a objetos.
 ###### UML se nutrio a partir de UML 1.1. Aunque UML 2.1 nunca fue lanzado como una especificación formal, las versiones 2.1.1 y 2.1.2, aparecieron en 2007, seguidas por UML 2.2 en febrero de 2009. UML 2.3 fue lanzado oficialmente en mayo de 2010. UML 2.4.1 fue lanzado oficialmente en agosto de 2011. UML 2, y por ultimo 5.1 fue lanzado en octubre de 2012 como una versión "En proceso" que fue formalmente liberada en junio de 2015.
+![Clasev](../imagenes/uml.png)
 
