@@ -8,4 +8,5 @@
 ###### Materia: Programacion Orientada a Objetos
 ###### Serie: AED-1286SC2C
 ###### Carrera: Ingenieria en sistemas computacionales
+##### Indice de practicas:
 ###### [InvestigacionU1](./ParadigmaOO/README.md)
