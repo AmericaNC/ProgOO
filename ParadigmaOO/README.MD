@@ -12,13 +12,18 @@
 ###### La *abstracción* puede definirse como el concepto de reducir la complejidad en el código. Se considera fundamental debido a su utilidad: el reducir la complejidad de los algoritmos o centrarse en uno independiente a los demás agiliza la programación y la hace más eficiente.
 
 ###### El *encapsulamiento* en programación consiste en “cubrir” el funcionamiento interno de una entidad para que esta no sea vulnerable a modificaciones directas. Se puede apreciar un ejemplo en la siguiente imagen.
-![es](./ParadigmaOO/imagenes/estufa.png)
-![esInt](./ParadigmaOO/imagenes/estufaInterior.png)
-###### Una persona para cocinar usando una estufa solo necesita utilizar los botones que hay, sin embargo, estos botones tienen  un cableado complejo que permite la funcionalidad de la misma.
-![Boiler](./ParadigmaOO/imagenes/boiler.png)
+![es](../imagenes/estufa.png)
+![esInt](../imagenes/estufaInterior.png)
+###### Una persona para cocinar usando una estufa solo necesita utilizar los botones que hay, sin embargo, estos botones tienen  un cableado complejo que permite la funcionalidad de la misma, justo como se aprecia en las ultimas ds imagenes. El encapsulamiento es importante para evitar el mal manejo de los datos, el cambio de los estados de los objetos de manera inadecuada y el manejo poco solido del software.
+![Boiler](../imagenes/boiler.png)
 ###### Por otro lado, este es un calentador de paso que hay que hacer funcionar interactuando directamente con los componentes, extremando los riesgos.
 ###### En programación la herencia puede entenderse como la extensión de los atributos y/o métodos de una clase padre que se atribuyen también a la clase hijo. Se aprecia en la siguiente imagen:
-![Clasev](./ParadigmaOO/imagenes/clasev.png)
+![Clasev](../imagenes/clasev.png)
 ###### En este caso, un coche comparte con una motocicleta el hecho de ser un medio de transporte (vehículo). Es por eso que ambas heredan los atributos de la clase vehiculo y a su vez tienen los propios.
 
-## 
+## UML: Diagrama de clases
+###### El lenguaje UML tuvo sus inicios en 1994, cuando Rumbaugh se unió a la compañía Rational fundada por Booch, con el proposito era unificar dos métodos que habían desarrollado: el método Booch y el OMT (Object Modelling Tool). Apareciendo el primer borrador en octubre de 1995. En esa misma época Jacobson, otro investigador, se unió a Rational y se incluyeron ideas suyas. Además, este lenguaje se abrió a la colaboración de otras empresas para que aportaran sus ideas. Todas estas colaboraciones condujeron a la definición de la primera versión de UML. 
+###### La planificación y análisis que ofrece el desarrollo con UML es usado para sistemas con altos niveles de complejidad en la estructura y comportamiento. Es por esto mismo que las grandes empresas siguen utilizando el lenguaje unificado de modelado actualmente y sigue teniendo relevancia.
+###### En 1997 UML 1.1 fue aprobada por la OMG convirtiéndose en la notación estándar de facto para el análisis y el diseño orientado a objetos.
+###### UML se nutrio a partir de UML 1.1. Aunque UML 2.1 nunca fue lanzado como una especificación formal, las versiones 2.1.1 y 2.1.2, aparecieron en 2007, seguidas por UML 2.2 en febrero de 2009. UML 2.3 fue lanzado oficialmente en mayo de 2010. UML 2.4.1 fue lanzado oficialmente en agosto de 2011. UML 2, y por ultimo 5.1 fue lanzado en octubre de 2012 como una versión "En proceso" que fue formalmente liberada en junio de 2015.
+
